@@ -1627,7 +1627,7 @@
 <p>Getting a local playground environment can be easily done with Docker. The following command starts a docker container with kubernetes. <em>On startup it can take a few minutes to download all images.</em> When the installation is done all pods should show "Running" or "Completed".</p>
 <div class="highlight"><pre><span></span><code>docker run --privileged -p 8080:80 -ti direktiv/direktiv-kube
 </code></pre></div>
-<p>For proxy usage:</p>
+<p>For proxy usage:ssss</p>
 <div class="highlight"><pre><span></span><code>docker run --privileged -p <span class="m">8080</span>:80 --env <span class="nv">HTTPS_PROXY</span><span class="o">=</span><span class="s2">&quot;http://&lt;proxy-address&gt;:443&quot;</span> --env <span class="nv">NO_PROXY</span><span class="o">=</span><span class="s2">&quot;.default,10.0.0.0/8,172.0.0.0/8,localhost&quot;</span> direktiv/direktiv-kube
 </code></pre></div>
 <p><strong><em>Testing Direktiv</em></strong>:</p>
